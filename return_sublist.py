@@ -11,3 +11,5 @@ def return_sublist(data: dict[str, list[str]] | list[tuple[str, list[str]]], col
     
     # If not found or wrong type, return None
     return None
+data = {'Age': ['23', '45', '30', '28'], 'Name': ['Alice', 'Bob', 'Charlie', 'Diana'], 'Salary': ['5000', '7000', '4500', '6000']}
+print(return_sublist(data, 'Name'))

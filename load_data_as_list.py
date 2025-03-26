@@ -21,5 +21,7 @@ def load_data_as_tuples(file_path):
         else:
             if current_column:
                 current_values.append(line)
+    return result
+print(load_data_as_tuples(file_path))
 
 

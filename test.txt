@@ -1,0 +1,20 @@
+COLUMN Age
+23
+45
+30
+28
+
+
+COLUMN Name
+Alice
+Bob
+Charlie
+Diana
+
+
+COLUMN Salary
+5000
+7000
+4500
+6000
+

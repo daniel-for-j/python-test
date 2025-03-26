@@ -18,5 +18,6 @@ def load_data_as_dict(file_path):
             if current_column:
                 data_dict[current_column].append(line)
     return data_dict
+print(load_data_as_dict(file_path))
 
    
